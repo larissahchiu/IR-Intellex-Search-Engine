@@ -1,5 +1,3 @@
-This is the README file for A0155657U-A0195083Y-A0155527B-A0158000X's submission
-
 == Python Version ==
 
 We're using Python Version <3.6.6> for this assignment.
@@ -135,39 +133,3 @@ Recall: 1
 In general, the results are similar, except for the last query where the precision was greatly reduced due to the large amount of documents returned by the algorithm. In addition,
 the results provided by the query expansion enabled engine ranked the relevant documents much lower than that of the engine without query expansion. As such, we have decided to turn off
 the enhancement for the final submission as we do not think it improves the retrieval of the documents.
-
-== Contributions ==
-A0155657U: Worked on query expansion for boolean and free text queries by finding synonyms for each query term. Implemented positional index.
-Developed a parser which preprocesses boolean and free text queries.
-A0195083Y: Worked on creating the ngram index. Worked on relevance feedback through implementing the Rocchio formula. Performed testing and analysis
-on query expansion techniques.
-A0158000X: Worked on query parser supporting boolean and free-text queries. Modified on relevance feedback through implementing the Rocchio formula.
-A0155527B: Worked on indexing documents, and integrating search APIs with the positional index. Performed testing of query refinement techniques.
-
-
-== Statement of individual work ==
-
-Please initial one of the following statements.
-
-[x] We, A0155657U-A0195083Y-A0155527B-A0158000X, certify that I have followed the CS 3245 Information
-Retrieval class guidelines for homework assignments.  In particular, I
-expressly vow that I have followed the Facebook rule in discussing
-with others in doing the assignment and did not take notes (digital or
-printed) from the discussions.
-
-[ ] I, A0000000X, did not follow the class rules regarding homework
-assignment, because of the following reason:
-
-<Please fill in>
-
-I suggest that I should be graded as follows:
-
-<Please fill in>
-
-== References ==
-
-<Please list any websites and/or people you consulted with for this
-assignment and state their role>
-
-StackOverflow - Python implementation of positional index intersection algorithm
-Google - Python syntax
